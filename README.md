@@ -47,7 +47,13 @@ It'll walk you through the rest — column mapping, filters, duplicate handling,
 
 ## Why this exists
 
-Shopify's CSV import is powerful but unforgiving. The docs don't make it clear which fields do what, image rows have to be in exactly the right order, and one wrong column name silently breaks everything. I built this because I kept running into the same problems and wanted a way to get it right the first time.
+Shopify's CSV import is annoying. The docs don't make it clear which fields do what, image rows have to be in exactly the right order, and one wrong column name silently breaks everything. I built this because I kept running into the same problems and wanted a way to get it right the first time.
+
+---
+
+## Tests done
+
+I tested this on a simple single variant dataset from one of my more basic stores, but haven't had the chance to test it on a more complex data set with multi-variant and multi-image cases and more complicated custom metaobjects, so if you do, please let me know how it goes!
 
 ---
 
